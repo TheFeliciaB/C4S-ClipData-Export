@@ -10,6 +10,7 @@ Notes:
 4. Complex Titles or unusual characters in the Title could cause an issue with the filename.
 5. Use at your own risk, I don't know what I'm doing.
 6. This is not a bulk tool, and can only be done one page at a time.
+7. If a clip is awaiting activation, DATE ADDED will be the date it was added in to the system, not the date the clip is set to be published.
 
 Install in Firefox (I don't know how to make an XPI yet):
 1. Extract/place all the files in to the same folder.
