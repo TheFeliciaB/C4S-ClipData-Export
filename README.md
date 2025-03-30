@@ -12,10 +12,11 @@ Notes:
 6. This is not a bulk tool, and can only be done one page at a time.
 
 Install in Firefox (I don't know how to make an XPI yet):
-1. Go to about:debugging and click This Firefox.
-2. Click Load Temporary Add-on and load "manifest.json" from the src directory.
-3. Now it should be an option when you hit the "Extensions" button.
-4. If you restart Firefox, you have to re-add this.
+1. Extract/place all the files in to the same folder.
+2. Go to about:debugging and click This Firefox.
+3. Click Load Temporary Add-on and load "manifest.json".
+4. Now it should be an option when you hit the "Extensions" button.
+5. If you restart Firefox, you have to re-add this.
 
 To Use:
 1. Log in to your C4S account and go to the Old Admin.
