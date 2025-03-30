@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Export C4S Web Form Data</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 300px;
+      padding: 10px;
+    }
+    h2 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    button {
+      margin: 5px;
+      padding: 8px 12px;
+      width: 90%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #status {
+      font-size: 12px;
+      text-align: center;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h2>Export C4S Web Form Data</h2>
+  <button id="exportText">Export as Text</button>
+  <button id="exportCSV">Export as CSV</button>
+  <button id="exportXML">Export as XML</button>
+  <button id="exportHTML">Export as HTML</button>
+  <div id="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
