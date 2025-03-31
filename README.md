@@ -3,21 +3,21 @@ A quick and dirty Firefox extension to export individual clip data in the old st
 Cobbled together from numerous prompts in Microsoft CoPilot and frantic Googling. 
 Export a single Clip's data in to a TXT, CSV, XML or HTML file.  
 
+Source code is open. Modify as you like! 
+
 Notes:
 1. The Store ID is there, but the store name is not. That information doesn't appear to be on the clip data page.
-2. Related categories and keywords haven't been added.
-3. Descriptions preserve the HTML. If your Clip Description used HTML tables, it might cause issues with HTML export.
-4. Complex Titles or unusual characters in the Title could cause an issue with the filename.
-5. Use at your own risk, I don't know what I'm doing.
-6. This is not a bulk tool, and can only be done one page at a time.
-7. If a clip is awaiting activation, DATE ADDED will be the date it was added in to the system, not the date the clip is set to be published.
+~~2. Related categories and keywords haven't been added.~~ Added!
+2. Descriptions preserve the HTML. If your Clip Description used HTML tables, it might cause issues with HTML export.
+3. Use at your own risk, I don't know what I'm doing.
+4. This is not a bulk tool, and can only be done one page at a time.
+5. If a clip is awaiting activation, DATE ADDED will be the date it was added in to the system, not the date the clip is set to be published.
+6. If a Keyword field is empty, it still adds the comma. 
 
-Install in Firefox (I don't know how to make an XPI yet):
-1. Extract/place all the files in to the same folder.
-2. Go to about:debugging and click This Firefox.
-3. Click Load Temporary Add-on and load "manifest.json".
-4. Now it should be an option when you hit the "Extensions" button.
-5. If you restart Firefox, you have to re-add this.
+Install in Firefox (XPI file):
+1. You can go to about:addons , click the gear, then Install Add on from File. You may also be able to drag and drop the XPI file in to the address bar and it should ask to install.
+2. You can turn it off after using it through Manage or Remove extension, then turn it back on when you need it. Not sure how to get that as part of a feature.
+3. You can also go to about:debugging and add it as a temporary addon, that way it's removed when you close Firefox, and only add it back when you need it.
 
 To Use:
 1. Log in to your C4S account and go to the Old Admin.
